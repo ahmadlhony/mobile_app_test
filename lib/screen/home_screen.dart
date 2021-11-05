@@ -57,6 +57,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Container(
+                alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {},
                   child: Text("Forgot Password"),
